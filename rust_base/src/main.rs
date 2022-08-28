@@ -1,5 +1,7 @@
 mod models;
 mod quux;
+mod vecdeque_demo;
+pub mod vector_demo;
 
 fn main() {
     quux::foo::bar();
@@ -22,6 +24,8 @@ fn main() {
     string_slice_demo();
 
     create_user();
+
+    crate::vector_demo::vector_demo::for_mutvector_demo();
 }
 
 //结构体
